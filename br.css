@@ -51,17 +51,17 @@
 
 .bgimg1 {
   background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
-    url("events-1.jpg");
+    url("./assets/events-1.jpg");
 }
 
 .bgimg2 {
   background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
-    url("events-2.jpg");
+    url("./assets/events-2.jpg");
 }
 
 .bgimg3 {
   background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
-    url("events-3.jpg");
+    url("./assets/events-3.jpg");
 }
 
 .pdiv {

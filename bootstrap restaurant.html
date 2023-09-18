@@ -1,0 +1,1016 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Restaurant</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Roboto:wght@100;300;400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Roboto:wght@100;300;400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="br.css" />
+  </head>
+  <body>
+    <!--nav bar-->
+
+    <nav class="navbar navbar-expand-md bg-white navbar-light my-4">
+      <div class="container-lg">
+        <a href="#home" class="navbar-brand">
+          <span class="bt text-bolder fs-2 t1"
+            >Yummy<span class="rt text-bolder">.</span></span
+          >
+        </a>
+
+        <button
+          class="navbar-toggler data-bs-placement-end"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#main-nav"
+          aria-controls="main-nav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <!-- navbar links -->
+
+        <div
+          class="collapse navbar-collapse justify-content-end align-center"
+          id="main-nav"
+        >
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link mx-2" href="#home">Home</a>
+            </li>
+            <li class="nav-item mx-2">
+              <a class="nav-link" href="#about">About</a>
+            </li>
+            <li class="nav-item mx-2">
+              <a class="nav-link" href="#menu">Menu</a>
+            </li>
+            <li class="nav-item mx-2">
+              <a class="nav-link" href="#events">Events</a>
+            </li>
+            <li class="nav-item mx-2">
+              <a class="nav-link" href="#chefs">Chefs</a>
+            </li>
+            <li class="nav-item mx-2">
+              <a class="nav-link" href="#gallery">Gallery</a>
+            </li>
+            <li class="nav-item mx-2">
+              <a class="nav-link" href="#dropdown">Dropdown</a>
+            </li>
+            <li class="nav-item mx-2">
+              <a class="nav-link" href="#contact">Contact</a>
+            </li>
+          </ul>
+        </div>
+
+        <button
+          type="button"
+          class="btn text-white rbg rounded-pill px-4 py-2 mx-5"
+        >
+          Book a Table
+        </button>
+      </div>
+    </nav>
+
+    <!--home-->
+
+    <section id="home" class="gbg py-5">
+      <div class="container-lg my-5">
+        <div class="row my-4 justify-content-between">
+          <div class="col-lg-5">
+            <p class="display-2 t2 fw-bold">
+              Enjoy Your Healthy Delicious Food
+            </p>
+            <p class="t1 text-muted fs-6">
+              Sed autem laudantium dolores. Voluptatem itaque ea consequatur
+              eveniet. Eum quas beatae cumque eum quaerat.
+            </p>
+            <div class="d-flex align-items-center">
+              <button
+                type="button"
+                class="btn fs-5 rounded-pill rbg text-white px-4 mt-2 mb-5"
+              >
+                Book a Table
+              </button>
+              <span class="mt-2 mb-5 d-flex align-items-center">
+                <i class="bi bi-play-circle h1 rt ms-5"></i>
+                <span class="t1 fw-normal fs-6 mx-2">Watch Video</span>
+              </span>
+            </div>
+          </div>
+
+          <div class="col-lg-5">
+            <img
+              src="D:\bootstrap kar lo bc\Yummy\assets\img\hero-img.png"
+              class="img-fluid"
+              alt="food image"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!----------------------about us---------------------------------->
+
+    <section id="about" class="bg-white my-5">
+      <div class="container-lg">
+        <p class="fs-6 text-muted text-center">ABOUT US</p>
+        <p class="t2 display-4 text-center">
+          Learn More <span class="rt">About Us </span>
+        </p>
+
+        <div class="row justify-content-around my-5">
+          <div class="col-lg-7 position-relative">
+            <img
+              src="D:\bootstrap kar lo bc\Yummy\assets\img\about.jpg"
+              class="w-100 h-100"
+            />
+            <div class="bg-white position-absolute top-50 start-50 translate-middle py-4 px-5">
+              <p class="text-center t1 fs-5 fw-bold px-3">Book a Table</p>
+              <p class="text-center rt t1 fw-bold fs-4 px-3">+1 5589 55488 55</p>
+            </div>
+          </div>
+
+          <div class="col-lg-4">
+            <p class="fs-5 fst-italic text-muted">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+
+            <p class="fs-5 text-muted"><span class="rt pe-2"><i class="bi bi-check2-all"></i></span>Ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+
+            <p class="fs-5 text-muted"><span class="rt pe-2"><i class="bi bi-check2-all"></i></span>Duis aute irure dolor in reprehenderit in voluptate velit.</p>
+            
+            <p class="fs-5 text-muted"><span class="rt pe-2"><i class="bi bi-check2-all"></i></span>Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate trideta storacalaperda mastiro dolore eu fugiat nulla pariatur.</p>
+
+            <p class="fs-5 text-muted">Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident</p>
+
+            <img src="D:\bootstrap kar lo bc\Yummy\assets\img\about-2.jpg" alt="about image" class="img-fluid">
+          </div>
+      </div>
+    </section>
+
+    <!---------------------------------cards--------------------------------------->
+
+    <section id="cards" class = "gbg">
+      <div class="container">
+        <div class="row my-5 py-5 justify-content-between align-items-center">
+             <div class="col-lg-3">
+               <div class="card rbg text-white p-4">
+                <div class="card-title fw-bolder display-6">Why Choose Yummy?</div>
+                <div class="card-body fw-normal fs-6">
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Duis aute irure dolor in reprehenderit Asperiores dolores sed et. Tenetur quia eos. Autem tempore quibusdam vel necessitatibus optio ad corporis.</p>
+                  <span class="d-flex justify-content-center my-4"><button type="button" class="btn btn-light rounded-pill fs-4 mt-1 mb-2 px-3 py-2 bg-gradient-6">Learn More</button></span>
+                </div>
+               </div>
+             </div>
+
+             <div class="col-3">
+              <div class="card text-center text-dark bg-white">
+                <div class="card-title mt-5 mb-2 p-2">
+                  <span class="rt rounded-circle frbg display-2 "><i class="bi bi-clipboard-data p-3"></i></span>
+                  <p class="text-dark my-3 fs-3 fw-bold">Corporis voluptates officia eiusmod</p>
+                </div>
+
+                <div class="card-body mt-1 mb-5 lead fs-5 fw-normal">Consequuntur sunt aut quasi enim aliquam quae harum pariatur laboris nisi ut aliquip</div>
+               </div>
+             </div>
+
+             <div class="col-3">
+              <div class="card text-center text-dark bg-white">
+                <div class="card-title mt-5 mb-2 p-2">
+                  <span class="rt rounded-circle frbg display-2 "><i class="bi bi-clipboard-data p-3"></i></span>
+                  <p class="text-dark my-3 fs-3 fw-bold">Ullamco laboris ladore pan</p>
+                </div>
+
+                <div class="card-body mt-1 mb-5 lead fs-5 fw-normal">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt</div>
+               </div>
+             </div>
+
+             <div class="col-3">
+              <div class="card text-center text-dark bg-white">
+                <div class="card-title mt-5 mb-2 p-2">
+                  <span class="rt rounded-circle frbg display-2 "><i class="bi bi-clipboard-data p-3"></i></span>
+                  <p class="text-dark my-3 fs-3 fw-bold">Labore consequatur incidid dolore</p>
+                </div>
+
+                <div class="card-body mt-1 mb-5 lead fs-5 fw-normal">Aut suscipit aut cum nemo deleniti aut omnis. Doloribus ut maiores omnis facere</div>
+               </div>
+             </div>
+        </div>
+      </div>
+    </section>
+
+    <!-------------------------------bg img ------------------------------------------>
+
+    <!-- <section id="employees">
+      <div class="container">
+        <div class="row justify-content-center align-items-center bg-img">
+          <div class="col-lg-3">
+            <h2 class="fw-bolder t1">232</h2>
+            <span class="fw-bold fs-5">Clients</span>
+          </div>
+
+          <div class="col-lg-3">
+            <h2 class="fw-bolder t1">232</h2>
+            <span class="fw-bold fs-5">Clients</span>
+          </div>
+
+          <div class="col-lg-3">
+            <h2 class="fw-bolder t1">232</h2>
+            <span class="fw-bold fs-5">Clients</span>
+          </div>
+
+          <div class="col-lg-3">
+            <h2 class="fw-bolder t1">232</h2>
+            <span class="fw-bold fs-5">Clients</span>
+          </div>
+        </div>
+      </div>
+    </section> -->
+
+    <!----------------------------menu----------------------------------------->
+    <section id="menu">
+      <div id="container-lg">
+        <p class="text-center text-muted fs-6 t1">OUR MENU</p>
+        <p class="text-center t2 display-3">Check Our <span class="rt">Yummy Menu</span></p>
+        <div class="t1 fs-4 text-center text-muted text-decoration-none">
+          <span class="mx-3"><a class="text-decoration-none text-muted" href="#menu">Starters</a></span>
+          <span class="mx-3"><a class="text-decoration-none text-muted" href="#menu">Breakfast</a></span>
+          <span class="mx-3"><a class="text-decoration-none text-muted" href="#menu">Lunch</a></span>
+          <span class="mx-3"><a class="text-decoration-none text-muted" href="#menu">Dinner</a></span>   
+        </div>
+
+        <div class="row justify-content-center align-items-center mt-5">
+          <div class="col-lg-3 text-center p-4">
+            <img src="D:\bootstrap kar lo bc\Yummy\assets\img\menu\menu-item-1.png" class="w-75 h-75 text-center mb-3">
+            <p class="fs-3 t1 fw-bolder p-0 mt-0 mb-0">Magnam Tiste</p>
+            <p class="text-muted text-center fs-5 mb-2">Lorem, deren, trataro, filede, nerada</p>
+            <p class="t1 rt text-center fw-bolder fs-3">$5.95</p>
+          </div>
+
+          <div class="col-lg-3 text-center p-4">
+            <img src="D:\bootstrap kar lo bc\Yummy\assets\img\menu\menu-item-2.png" class="w-75 h-75 text-center mb-3">
+            <p class="fs-3 t1 fw-bolder p-0 mt-0 mb-0">Aut Luia</p>
+            <p class="text-muted text-center fs-5 mb-2">Lorem, deren, trataro, filede, nerada</p>
+            <p class="t1 rt text-center fw-bolder fs-3">$14.95</p>
+          </div>
+
+          <div class="col-lg-3 text-center p-4">
+            <img src="D:\bootstrap kar lo bc\Yummy\assets\img\menu\menu-item-3.png" class="w-75 h-75 text-center mb-3">
+            <p class="fs-3 t1 fw-bolder p-0 mt-0 mb-0">Est Eligendi</p>
+            <p class="text-muted text-center fs-5 mb-2">Lorem, deren, trataro, filede, nerada</p>
+            <p class="t1 rt text-center fw-bolder fs-3">$8.95</p>
+          </div>
+        </div>
+
+        <div class="row justify-content-center align-items-center mt-3 mb-5">
+          <div class="col-lg-3 text-center p-4">
+            <img src="D:\bootstrap kar lo bc\Yummy\assets\img\menu\menu-item-4.png" class="w-75 h-75">
+            <p class="fs-3 t1 fw-bolder p-0 mt-0 mb-0">Eos Luibusdam</p>
+            <p class="text-muted text-center fs-5 mb-2">Lorem, deren, trataro, filede, nerada</p>
+            <p class="t1 rt text-center fw-bolder fs-3">$14.95</p>
+          </div>
+
+          <div class="col-lg-3 text-center p-4">
+            <img src="D:\bootstrap kar lo bc\Yummy\assets\img\menu\menu-item-5.png" class="w-75 h-75">
+            <p class="fs-3 t1 fw-bolder p-0 mt-0 mb-0">Eos Luibusdam</p>
+            <p class="text-muted text-center fs-5 mb-2">Lorem, deren, trataro, filede, nerada</p>
+            <p class="t1 rt text-center fw-bolder fs-3">$14.95</p>
+          </div>
+
+          <div class="col-lg-3 text-center p-4">
+            <img src="D:\bootstrap kar lo bc\Yummy\assets\img\menu\menu-item-6.png" class="w-75 h-75">
+            <p class="fs-3 t1 fw-bolder p-0 mt-0 mb-0">Laboriosam Direva</p>
+            <p class="text-muted text-center fs-5 mb-2">Lorem, deren, trataro, filede, nerada</p>
+            <p class="t1 rt text-center fw-bolder fs-3">$14.95</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!------------------------testimonials------------------------------------------------->
+
+    <section id="testimonials" class="gbg">
+      <div class="container-lg my-5 gbg py-5">
+        <p class="text-center text-muted fs-6 t1">TESTIMONIALS</p>
+        <p class="text-center t2 display-3 mt-0">What Are They <span class="rt">Saying About Us</span></p>
+        <div
+          id="carouselExampleControls"
+          class="carousel slide"
+          data-bs-ride="carousel"
+        >
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <div class="row justify-content-center align-items-center">
+                <div class="col-7 bl my-5 ms-5 ps-4">
+                  <p class="fst-italic text-secondary fs-6 m-0 p-1 lh-1">
+                    <span class="h2 rt"><i class="bi bi-quote"></i></span>
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vero
+                    necessitatibus corporis, facere reiciendis possimus
+                    consectetur architecto minus iure exa.
+                    <span class="h2 rt quote-icon-right"
+                      ><i class="bi bi-quote"></i
+                    ></span>
+                  </p>
+                  <p class="text-dark fs-3 fw-bold m-0 p-0">Saul Goodman</p>
+                  <p class="text-muted fw-normal m-0 p-0">Ceo & Founder</p>
+                  <p class="m-0 p-0 yt">
+                    <span><i class="bi bi-star-fill"></i></span>
+                    <span><i class="bi bi-star-fill"></i></span>
+                    <span><i class="bi bi-star-fill"></i></span>
+                    <span><i class="bi bi-star-fill"></i></span>
+                    <span><i class="bi bi-star-fill"></i></span>
+                  </p>
+                </div>
+                <div class="col-lg-3 text-center px-0 mx-0">
+                  <div>
+                    <img
+                      src="D:\bootstrap kar lo bc\restaurant clone\testimonials-1.jpg"
+                      class="d-block w-75 h-75 rounded-circle"
+                      alt="..."
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+  
+            <div class="carousel-item">
+              <div class="row justify-content-center align-items-center">
+                <div class="col-7 bl my-5 ms-5 ps-4">
+                  <p class="fst-italic text-secondary fs-6 m-0 p-1 lh-1">
+                    <span class="h2 rt"><i class="bi bi-quote"></i></span>
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vero
+                    necessitatibus corporis, facere reiciendis possimus
+                    consectetur architecto minus iure exa.
+                    <span class="h2 rt quote-icon-right"
+                      ><i class="bi bi-quote"></i
+                    ></span>
+                  </p>
+                  <p class="text-dark fs-3 fw-bold m-0 p-0">Sara Willson</p>
+                  <p class="text-muted fw-normal m-0 p-0">Designer</p>
+                  <p class="m-0 p-0 yt">
+                    <span><i class="bi bi-star-fill"></i></span>
+                    <span><i class="bi bi-star-fill"></i></span>
+                    <span><i class="bi bi-star-fill"></i></span>
+                    <span><i class="bi bi-star-fill"></i></span>
+                    <span><i class="bi bi-star-fill"></i></span>
+                  </p>
+                </div>
+                <div class="col-lg-3 text-center px-0 mx-0">
+                  <div>
+                    <img
+                      src="D:\bootstrap kar lo bc\restaurant clone\testimonials-2.jpg"
+                      class="d-block w-75 h-75 rounded-circle"
+                      alt="..."
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+  
+            <div class="carousel-item">
+              <div class="row justify-content-center align-items-center">
+                <div class="col-7 bl my-5 ms-5 ps-4">
+                  <p class="fst-italic text-secondary fs-6 m-0 p-1 lh-1">
+                    <span class="h2 rt"><i class="bi bi-quote"></i></span>
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vero
+                    necessitatibus corporis, facere reiciendis possimus
+                    consectetur architecto minus iure exa.
+                    <span class="h2 rt quote-icon-right"
+                      ><i class="bi bi-quote"></i
+                    ></span>
+                  </p>
+                  <p class="text-dark fs-3 fw-bold m-0 p-0">Jena Carlis</p>
+                  <p class="text-muted fw-normal m-0 p-0">Store Owner</p>
+                  <p class="m-0 p-0 yt">
+                    <span><i class="bi bi-star-fill"></i></span>
+                    <span><i class="bi bi-star-fill"></i></span>
+                    <span><i class="bi bi-star-fill"></i></span>
+                    <span><i class="bi bi-star-fill"></i></span>
+                    <span><i class="bi bi-star-fill"></i></span>
+                  </p>
+                </div>
+                <div class="col-lg-3 text-center px-0 mx-0">
+                  <div>
+                    <img
+                      src="D:\bootstrap kar lo bc\restaurant clone\testimonials-3.jpg"
+                      class="d-block w-75 h-75 rounded-circle"
+                      alt="..."
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+  
+            <div class="carousel-item">
+              <div class="row justify-content-center align-items-center">
+                <div class="col-7 bl my-5 ms-5 ps-4">
+                  <p class="fst-italic text-secondary fs-6 m-0 p-1 lh-1">
+                    <span class="h2 rt"><i class="bi bi-quote"></i></span>
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vero
+                    necessitatibus corporis, facere reiciendis possimus
+                    consectetur architecto minus iure exa.
+                    <span class="h2 rt quote-icon-right"
+                      ><i class="bi bi-quote"></i
+                    ></span>
+                  </p>
+                  <p class="text-dark fs-3 fw-bold m-0 p-0">Jaun Larson</p>
+                  <p class="text-muted fw-normal m-0 p-0">Entrepreneur</p>
+                  <p class="m-0 p-0 yt">
+                    <span><i class="bi bi-star-fill"></i></span>
+                    <span><i class="bi bi-star-fill"></i></span>
+                    <span><i class="bi bi-star-fill"></i></span>
+                    <span><i class="bi bi-star-fill"></i></span>
+                    <span><i class="bi bi-star-fill"></i></span>
+                  </p>
+                </div>
+                <div class="col-lg-3 text-center px-0 mx-0">
+                  <div>
+                    <img
+                      src="D:\bootstrap kar lo bc\restaurant clone\testimonials-4.jpg"
+                      class="d-block w-75 h-75 rounded-circle"
+                      alt="..."
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <button
+            class="carousel-control-prev pe-5"
+            type="button"
+            data-bs-target="#carouselExampleControls"
+            data-bs-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button
+            class="carousel-control-next ps-5"
+            type="button"
+            data-bs-target="#carouselExampleControls"
+            data-bs-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>  
+    </section>
+
+<!------------------------------------events--------------------------------------------------------->
+
+    <section id="events" class="my-5 mx-0 px-0">
+      <div class="container-lg">
+        <p class="text-center text-muted fs-6 t1">EVENTS</p>
+        <p class="text-center t2 display-3 mt-0">
+          Share <span class="rt">Your Moments</span> In Our Restaurant
+        </p>
+
+        <div
+          id="carouselExampleIndicators"
+          class="carousel slide"
+          data-bs-ride="carousel"
+        >
+          <div class="carousel-indicators">
+            <button
+              type="button"
+              data-bs-target="#carouselExampleIndicators"
+              data-bs-slide-to="0"
+              class="active"
+              aria-current="true"
+              aria-label="Slide 1"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleIndicators"
+              data-bs-slide-to="1"
+              aria-label="Slide 2"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleIndicators"
+              data-bs-slide-to="2"
+              aria-label="Slide 3"
+            ></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <div class="row justify-content-between align-items-center">
+                <div class="col-lg-4">
+                  <div class="bgimg1 img-fluid mt-4 pt-4 text-white">
+                    <div>
+                      <div class="py-5 my-5"></div>
+
+                      <span class="fw-bold fs-3 d-block mx-4 pb-1"
+                        >Birthday Parties</span
+                      >
+                      <span class="fw-bold fs-2 mx-4 pb-1 mb-5 bb">$499</span>
+                      <p class="mx-4 pb-5 mt-3 lh-sm">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Aut at illum inventore dolor porro molestiae
+                        reprehenderit corrupti, consectetur iste obcaecati
+                        mollitia quam, quia magnam neque laudantium voluptatibus
+                        nulla sunt ut?
+                      </p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-lg-4">
+                  <div class="bgimg2 img-fluid mt-4 pt-4 text-white">
+                    <div>
+                      <div class="py-5 my-5"></div>
+
+                      <span class="fw-bold fs-3 d-block mx-4 pb-1"
+                        >Custom Parties</span
+                      >
+                      <span class="fw-bold fs-2 mx-4 pb-1 mb-5 bb">$99</span>
+                      <p class="mx-4 pb-5 mt-3 lh-sm">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Aut at illum inventore dolor porro molestiae
+                        reprehenderit corrupti, consectetur iste obcaecati
+                        mollitia quam, quia magnam neque laudantium voluptatibus
+                        nulla sunt ut?
+                      </p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-lg-4">
+                  <div class="bgimg3 img-fluid mt-4 pt-4 text-white">
+                    <div>
+                      <div class="py-5 my-5"></div>
+
+                      <span class="fw-bold fs-3 d-block mx-4 pb-1"
+                        >Private Parties</span
+                      >
+                      <span class="fw-bold fs-2 mx-4 pb-1 mb-5 bb">$289</span>
+                      <p class="mx-4 pb-5 mt-3 lh-sm">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Aut at illum inventore dolor porro molestiae
+                        reprehenderit corrupti, consectetur iste obcaecati
+                        mollitia quam, quia magnam neque laudantium voluptatibus
+                        nulla sunt ut?
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="carousel-item">
+              <div class="row justify-content-between align-items-center">
+                <div class="col-lg-4">
+                  <div class="bgimg2 img-fluid mt-4 pt-4 text-white">
+                    <div>
+                      <div class="py-5 my-5"></div>
+
+                      <span class="fw-bold fs-3 d-block mx-4 pb-1"
+                        >Custom Parties</span
+                      >
+                      <span class="fw-bold fs-2 mx-4 pb-1 mb-5 bb">$99</span>
+                      <p class="mx-4 pb-5 mt-3 lh-sm">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Aut at illum inventore dolor porro molestiae
+                        reprehenderit corrupti, consectetur iste obcaecati
+                        mollitia quam, quia magnam neque laudantium voluptatibus
+                        nulla sunt ut?
+                      </p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-lg-4">
+                  <div class="bgimg3 img-fluid mt-4 pt-4 text-white">
+                    <div>
+                      <div class="py-5 my-5"></div>
+
+                      <span class="fw-bold fs-3 d-block mx-4 pb-1"
+                        >Private Parties</span
+                      >
+                      <span class="fw-bold fs-2 mx-4 pb-1 mb-5 bb">$289</span>
+                      <p class="mx-4 pb-5 mt-3 lh-sm">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Aut at illum inventore dolor porro molestiae
+                        reprehenderit corrupti, consectetur iste obcaecati
+                        mollitia quam, quia magnam neque laudantium voluptatibus
+                        nulla sunt ut?
+                      </p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-lg-4">
+                  <div class="bgimg1 img-fluid mt-4 pt-4 text-white">
+                    <div>
+                      <div class="py-5 my-5"></div>
+
+                      <span class="fw-bold fs-3 d-block mx-4 pb-1"
+                        >Birthday Parties</span
+                      >
+                      <span class="fw-bold fs-2 mx-4 pb-1 mb-5 bb">$499</span>
+                      <p class="mx-4 pb-5 mt-3 lh-sm">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Aut at illum inventore dolor porro molestiae
+                        reprehenderit corrupti, consectetur iste obcaecati
+                        mollitia quam, quia magnam neque laudantium voluptatibus
+                        nulla sunt ut?
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="carousel-item">
+              <div class="row justify-content-between align-items-center">
+                <div class="col-lg-4">
+                  <div class="bgimg3 img-fluid mt-4 pt-4 text-white">
+                    <div>
+                      <div class="py-5 my-5"></div>
+
+                      <span class="fw-bold fs-3 d-block mx-4 pb-1"
+                        >Private Parties</span
+                      >
+                      <span class="fw-bold fs-2 mx-4 pb-1 mb-5 bb">$289</span>
+                      <p class="mx-4 pb-5 mt-3 lh-sm">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Aut at illum inventore dolor porro molestiae
+                        reprehenderit corrupti, consectetur iste obcaecati
+                        mollitia quam, quia magnam neque laudantium voluptatibus
+                        nulla sunt ut?
+                      </p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-4">
+                  <div class="bgimg3 img-fluid mt-4 pt-4 text-white">
+                    <div>
+                      <div class="py-5 my-5"></div>
+
+                      <span class="fw-bold fs-3 d-block mx-4 pb-1"
+                        >Birthday Parties</span
+                      >
+                      <span class="fw-bold fs-2 mx-4 pb-1 mb-5 bb">$499</span>
+                      <p class="mx-4 pb-5 mt-3 lh-sm">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Aut at illum inventore dolor porro molestiae
+                        reprehenderit corrupti, consectetur iste obcaecati
+                        mollitia quam, quia magnam neque laudantium voluptatibus
+                        nulla sunt ut?
+                      </p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-lg-4">
+                  <div class="bgimg2 img-fluid mt-4 pt-4 text-white">
+                    <div>
+                      <div class="py-5 my-5"></div>
+
+                      <span class="fw-bold fs-3 d-block mx-4 pb-1"
+                        >Custom Parties</span
+                      >
+                      <span class="fw-bold fs-2 mx-4 pb-1 mb-5 bb">$99</span>
+                      <p class="mx-4 pb-5 mt-3 lh-sm">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Aut at illum inventore dolor porro molestiae
+                        reprehenderit corrupti, consectetur iste obcaecati
+                        mollitia quam, quia magnam neque laudantium voluptatibus
+                        nulla sunt ut?
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!----------------------------chefs------------------------------------------------>
+
+
+    <section id="chef" clas="my-5">
+      <div class="container-lg">
+        <p class="text-center text-muted fs-6 t1">CHEFS</p>
+        <p class="text-center t2 display-3 mt-0">
+          Our <span class="rt">Professional</span> In Our Restaurant
+        </p>
+
+        <div class="row justify-content-between align-items-center">
+          <div class="col-lg-4">
+            <div class="card">
+              <div class="card-body">
+                <div class="pdiv">
+                  <img
+                    src="D:\bootstrap kar lo bc\restaurant clone\chefs-1.jpg"
+                    class="img-fluid img1"
+                  />
+                  <img
+                    src="D:\bootstrap kar lo bc\Yummy\assets\img\team-shape.svg"
+                    class="img-fluid img2"
+                  />
+                  <p
+                    class="text-center fs-5 fw-bold pt-3 pb-0 mb-0 navbar-expand-md"
+                  >
+                    Walter White
+                  </p>
+                  <p class="text-center fs-6 text-muted pt-0 mt-0 mb-2">
+                    Master Chef
+                  </p>
+                  <p class="text-center text-secondary fst-italic">
+                    Velit aut quia fugit et et. Dolorum ea voluptate vel tempore
+                    tenetur ipsa quae aut. Ipsum exercitationem iure minima enim
+                    corporis et voluptate.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4">
+            <div class="card">
+              <div class="card-body">
+                <div class="pdiv">
+                  <img
+                    src="D:\bootstrap kar lo bc\restaurant clone\chefs-2.jpg"
+                    class="img-fluid img1"
+                  />
+                  <img
+                    src="D:\bootstrap kar lo bc\Yummy\assets\img\team-shape.svg"
+                    class="img-fluid img2"
+                  />
+                  <p class="text-center fs-5 fw-bold pt-3 pb-0 mb-0">
+                    Walter White
+                  </p>
+                  <p class="text-center fs-6 text-muted pt-0 mt-0 mb-2">
+                    Master Chef
+                  </p>
+                  <p class="text-center text-secondary fst-italic">
+                    Velit aut quia fugit et et. Dolorum ea voluptate vel tempore
+                    tenetur ipsa quae aut. Ipsum exercitationem iure minima enim
+                    corporis et voluptate.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4">
+            <div class="card">
+              <div class="card-body">
+                <div class="pdiv">
+                  <img
+                    src="D:\bootstrap kar lo bc\restaurant clone\chefs-3.jpg"
+                    class="img-fluid img3"
+                  />
+                  <img
+                    src="D:\bootstrap kar lo bc\Yummy\assets\img\team-shape.svg"
+                    class="img-fluid img2"
+                  />
+                  <p class="text-center fs-5 fw-bold pt-3 pb-0 mb-0">
+                    Walter White
+                  </p>
+                  <p class="text-center fs-6 text-muted pt-0 mt-0 mb-2">
+                    Master Chef
+                  </p>
+                  <p class="text-center text-secondary fst-italic">
+                    Velit aut quia fugit et et. Dolorum ea voluptate vel tempore
+                    tenetur ipsa quae aut. Ipsum exercitationem iure minima enim
+                    corporis et voluptate.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!----------------------------book a table-------------------------------->
+
+    <section id="table" class="my-5">
+      <div class="container">
+        <p class="text-center text-muted fs-6 t1">BOOK A TABLE</p>
+        <p class="text-center t2 display-3 mt-0">
+          Book <span class="rt">Your Stay</span> With Us
+        </p>
+
+        <div class="row">
+          <div class="col-lg-4 bg-light">
+            <img
+              src="D:\bootstrap kar lo bc\restaurant clone\reservation.jpg"
+              class="w-100 h-100"
+            />
+          </div>
+          <div class="col-lg-8 bg-light">
+            <form>
+              <div class="container">
+                <div class="row justify-content-center mt-5 pt-3 mb-4">
+                  <div class="col-lg-4">
+                    <input
+                      type="text"
+                      class="form-control"
+                      placeholder="Your Name"
+                    />
+                  </div>
+                  <div class="col-lg-4">
+                    <input
+                      type="text"
+                      class="form-control"
+                      placeholder="Your Email"
+                    />
+                  </div>
+                  <div class="col-lg-4">
+                    <input
+                      type="text"
+                      class="form-control"
+                      placeholder="Your Phone"
+                    />
+                  </div>
+                </div>
+
+                <div class="row justify-content-center mb-4">
+                  <div class="col-lg-4">
+                    <input
+                      type="text"
+                      class="form-control"
+                      placeholder="Date"
+                    />
+                  </div>
+                  <div class="col-lg-4">
+                    <input
+                      type="text"
+                      class="form-control"
+                      placeholder="Time"
+                    />
+                  </div>
+                  <div class="col-lg-4">
+                    <input
+                      type="number"
+                      class="form-control"
+                      placeholder="# of People"
+                    />
+                  </div>
+                </div>
+
+                <div class="row justify-content-center mb-4">
+                  <div class="col-lg-12">
+                    <textarea
+                      class="form-control"
+                      rows="5"
+                      placeholder="Your Message"
+                    ></textarea>
+                  </div>
+                </div>
+
+                <div class="row justify-content-center mb-3">
+                  <div class="col-lg-4">
+                    <button
+                      class="btn btn-lg text-white rounded-pill rbg px-5"
+                      type="submit"
+                    >
+                      Book a Table
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--------------------------contact us--------------------------------------->
+
+    <section id="contact" class="my-5">
+      <div class="container-lg">
+        <p class="text-center text-muted fs-6 t1">CONTACT</p>
+        <p class="text-center t2 display-3 mt-0">
+          Need Help <span class="rt">Contact Us</span>
+        </p>
+
+        <div class="row justify-content-center align-items-center">
+          <div class="col-lg-5 bg-light d-flex align-items-center p-4 m-4">
+            <span
+              class="h2 rbg text-white rounded-circle px-3 py-2 d-inline-block"
+              ><i class="bi bi-map"></i
+            ></span>
+            <span class="d-inline-block ps-3">
+              <p class="text-muted fw-bold fs-5 pb-0 mb-0">Our Address</p>
+              <p class="fs-6 fw-light">A108 Adam Street, New York, NY 535022</p>
+            </span>
+          </div>
+
+          <div class="col-lg-5 bg-light d-flex align-items-center p-4 m-4">
+            <span
+              class="h2 rbg text-white rounded-circle px-3 py-2 d-inline-block"
+              ><i class="bi bi-envelope"></i
+            ></span>
+            <span class="d-inline-block ps-3">
+              <p class="text-muted fw-bold fs-5 pb-0 mb-0">Email Us</p>
+              <p class="fs-6 fw-light">contact@example.com</p>
+            </span>
+          </div>
+
+          <div class="col-lg-5 bg-light d-flex align-items-center p-4 m-4">
+            <span
+              class="h2 rbg text-white rounded-circle px-3 py-2 d-inline-block"
+              ><i class="bi bi-telephone"></i>
+            </span>
+            <span class="d-inline-block ps-3">
+              <p class="text-muted fw-bold fs-5 pb-0 mb-0">Call Us</p>
+              <p class="fs-6 fw-light">+1 5589 55488 55</p>
+            </span>
+          </div>
+
+          <div class="col-lg-5 bg-light d-flex align-items-center p-4 m-4">
+            <span
+              class="h2 rbg text-white rounded-circle px-3 py-2 d-inline-block"
+              ><i class="bi bi-share"></i
+            ></span>
+            <span class="d-inline-block ps-3">
+              <p class="text-muted fw-bold fs-5 pb-0 mb-0">Opening Hours</p>
+              <p class="fs-6 fw-light">
+                <span class="text-bold">Mon-Sat:</span> 11AM - 23PM;<span
+                  class="text-bold"
+                  >Sunday:</span
+                >
+                Closed
+              </p>
+            </span>
+          </div>
+        </div>
+      </div>
+
+      <form class="bg-white">
+        <div class="container-lg bs">
+          <div class="row justify-content-center align-items-between">
+            <div class="col-lg-6 mt-3 mb-2">
+              <input type="text" class="form-control" placeholder="Your Name" />
+            </div>
+
+            <div class="col-lg-6 mt-3 mb-2">
+              <input
+                type="email"
+                class="form-control"
+                placeholder="Your Email"
+              />
+            </div>
+
+            <div class="col-lg-12 mt-2 mb-2">
+              <input type="text" class="form-control" placeholder="Subject" />
+            </div>
+
+            <div class="col-lg-12 mt-2 mb-2">
+              <textarea
+                class="form-control"
+                rows="5"
+                placeholder="Your Message"
+              ></textarea>
+            </div>
+
+            <div class="col-lg-3 d-flex justify-content-center m-3">
+              <button class="btn rbg px-4 py-2 rounded-pill text-white fs-5">
+                Send Message
+              </button>
+            </div>
+          </div>
+        </div>
+      </form>
+    </section>
+
+    
+    <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+    crossorigin="anonymous"
+  ></script>
+  </body>
+</html>

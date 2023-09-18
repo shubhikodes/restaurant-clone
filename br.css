@@ -1,0 +1,85 @@
+.rt {
+  color: #ce1212;
+}
+
+.bt {
+  color: #000;
+}
+.rbg {
+  background-color: rgb(206, 18, 18);
+}
+.frbg {
+  background-color: rgba(206, 18, 18, 0.1);
+}
+.gbg {
+  background-color: #eeeeee;
+}
+
+.t1 {
+  font-family: Inter, sans-serif;
+}
+
+.t2 {
+  font-family: Amatic SC, sans-serif;
+}
+
+.about-img {
+  width: 100%;
+  height: auto;
+}
+
+.bg-img {
+  background-image: url("D:\bootstrap kar lo bc\Yummy\assets\img\hero-img.png");
+}
+
+.quote-icon-right {
+  display: inline-block;
+  transform: rotate(180deg) translate(0px, -10px);
+}
+
+.yt {
+  color: #ffc107;
+}
+
+.bl {
+  border-left: 3px solid #ce1212;
+}
+
+.bb {
+  border-bottom: 2px solid #ce1212;
+}
+
+.bgimg1 {
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url("events-1.jpg");
+}
+
+.bgimg2 {
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url("events-2.jpg");
+}
+
+.bgimg3 {
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url("events-3.jpg");
+}
+
+.pdiv {
+  position: relative;
+  top: 0;
+  left: 0;
+}
+.img1 {
+  position: relative;
+  top: 0;
+  left: 0;
+}
+.img2 {
+  position: absolute;
+  top: 251px;
+  left: 0px;
+}
+
+.bs {
+  box-shadow: 0px -5px 16px 0px #ffe6c1;
+}
